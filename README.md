@@ -22,7 +22,7 @@
 | 파일 | 내용 |
 |---|---|
 | `SmashWiiU_Korean_build23_WiiU.zip` | Wii U 본체용(Aroma). 설치 앱, SDCafiine용 파일, 안내서, 라이선스 |
-| `SmashWiiU_Korean_build23_Cemu.zip` | Cemu 그래픽 팩 (Core / Core + DLC / 영상) |
+| `SmashWiiU_Korean_build23_Cemu.zip` | Cemu 그래픽 팩 (Core / Core + DLC / 영상), 일본판 로고 팩 만들기 도구 |
 
 압축을 푼 뒤 안에 있는 `읽어주세요.txt`(Wii U) 또는 `설치 안내.txt`(Cemu)를 따라 주세요. 게임 본편과 업데이트는 들어 있지 않습니다.
 
@@ -69,12 +69,25 @@ SD 카드가 작으면 패치 파일(약 460MB)을 USB 메모리나 USB 하드�
 
 ## Cemu
 
-Cemu ZIP 안의 폴더를 Cemu의 `graphicPacks`에 넣고 「Super Smash Bros. for Wii U > Mods > Korean Patch」에서 Core(DLC가 있으면 Core + DLC)와 원하면 Opening movie를 켭니다.
+Cemu ZIP 안의 폴더를 Cemu의 `graphicPacks`에 넣고(Cemu 메뉴 File → Open Cemu folder 안) 「Super Smash Bros. for Wii U > Mods > Korean Patch」에서 Core(DLC가 있으면 Core + DLC)와 원하면 Opening movie를 켭니다.
+
+### 일본판 로고 팩 만들기 (Cemu 도우미 p2)
+
+Cemu에서도 Wii U 설치 앱처럼 「일본판 로고」를 고를 수 있습니다. 로고 그림은 다른 한글 그림과 같은 파일에 들어 있어 빼기만 하면 한글도 사라지므로, 이 도구가 **내 PC에서 내 게임 파일로** 일본판 로고 팩을 만듭니다. 예전 「패치 제작기 p1」을 빌드 23에 맞게 고친 것입니다.
+
+1. Cemu ZIP을 「모두 압축 풀기」 한 뒤 `SSB4_Cemu_LogoTool_p2\일본판_로고_팩_만들기.cmd`를 실행합니다.
+2. 도구가 Cemu 설정과 게임(Cemu에 설치한 게임, 게임 폴더, `.wua`)을 찾아 보여 줍니다. Enter 를 누르면 만들어서 Cemu의 `graphicPacks`에 넣습니다. Cemu에 한글 패치 팩이 없거나 예전 빌드이면 함께 넣을지 묻습니다.
+3. Cemu에서 Core와 「Japanese logo (for Core)」(DLC가 있으면 Core + DLC와 「Japanese logo (for Core + DLC)」)를 함께 켭니다. 한글 로고로 돌아가려면 Japanese logo 팩만 끕니다.
+
+- 대난투 로고(타이틀, 스테이지 선택, 피규어 메뉴·숍, 아미보 그림, 토너먼트 오프닝, 오프닝 영상)만 일본판이 되고 나머지 한글은 그대로입니다. Opening movie 팩은 켜 두어도 됩니다(오프닝은 원래 영상, 조작 설명 영상은 한글).
+- 게임에서 읽은 부분과 만든 파일을 모두 확인값(SHA-256)으로 검사하고, 하나라도 다르면 아무것도 넣지 않습니다. Cemu에는 다 만든 팩만 넣고, 도구가 만들지 않은 같은 이름의 폴더는 건드리지 않습니다. 게임 파일은 읽기만 합니다.
+- 도구에는 일본판 로고 그림이 들어 있지 않습니다. 만든 팩은 다른 사람에게 주지 마세요.
 
 ## 확인 범위
 
 - 실제 Wii U(Aroma)에서 빌드 15로 설치와 게임 안 한글, 시작 화면 한글 로고를 확인했습니다.
 - 그 뒤에 바뀐 영상 설치, 게임 이름·전자 설명서, 일본판 로고 선택(빌드 23), USB에서 읽기는 PC 시험(모의 본체 시험, Cemu)으로만 확인했습니다.
+- Cemu 일본판 로고 팩: 게임 폴더와 `.wua`에서 만들기, Cemu에 넣기를 확인했고, Cemu(Core + DLC)에서 타이틀·오프닝 영상·스테이지 선택·피규어 메뉴의 일본판 로고를 확인했습니다. Core 쪽 팩은 만든 파일의 확인값까지만 확인했습니다.
 - 모든 장면의 정상 동작을 보장하지 않습니다.
 
 ## 권리 및 안내
