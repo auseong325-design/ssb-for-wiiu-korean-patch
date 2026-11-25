@@ -69,6 +69,13 @@ SD 카드가 작으면 패치 파일(약 460MB)을 USB 메모리나 USB 하드�
 - 앱은 USB를 읽기만 합니다. 원래 파일 백업과 기록은 SD 카드에 저장합니다.
 - SD 카드와 USB 양쪽에 패치 데이터가 있으면 어느 쪽을 쓸지 고르는 화면이 나옵니다.
 
+| SD 카드와 USB 중 고르기 | USB의 패치 데이터로 준비됨 |
+|:---:|:---:|
+| ![패치 데이터 고르기](screenshots/tools/installer_usb_choose.jpg) | ![패치용 USB 상태 화면](screenshots/tools/installer_usb_status.jpg) |
+| ![USB로 설치 확인](screenshots/tools/installer_usb_confirm.jpg) | |
+
+<sub>설치 앱 1.3.3을 PC의 모의 본체(Cemu)에서 실행한 화면입니다. 모의 본체는 게임 본편이 디스크인 상태라 주황색 안내가 함께 보입니다.</sub>
+
 ### 기존 방식도 그대로 쓸 수 있습니다
 
 - **SDCafiine**: 위 방법 2. 본체 파일을 바꾸지 않으므로 SD 카드를 빼면 원래대로 돌아갑니다(늘 한글 로고, Wii U 메뉴 시작 화면·게임 이름·설명서는 그대로).
