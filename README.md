@@ -48,6 +48,14 @@
 - **항목 고르기**: 한글 영상, 「한글 로고」(끄면 일본판 원래 로고), 게임 이름·전자 설명서를 켜고 끌 수 있고, 고른 것을 기억합니다. 일본판 로고는 본체에 설치된 게임 본편의 파일로 앱이 만들어 씁니다(게임 본편이 디스크로만 있으면 고를 수 없음).
 - **기록**: 작업 기록이 SD 카드의 `wiiu/kopatch/SmashWiiU/logs`에 남습니다.
 
+| 상태 화면 | 설치 항목 고르기 |
+|:---:|:---:|
+| ![설치 앱 상태 화면](screenshots/log/installer_status.jpg) | ![설치 항목 고르기](screenshots/log/installer_items.jpg) |
+| ![설치 확인](screenshots/tools/installer_confirm.jpg) | ![설치 중](screenshots/tools/installer_progress.jpg) |
+| ![설치 끝](screenshots/tools/installer_done.jpg) | ![원래대로 되돌리기](screenshots/tools/installer_restore.jpg) |
+
+<sub>설치 앱 1.3.3(빌드 23)을 PC의 모의 본체(Cemu)에서 실행한 화면이라 오른쪽 위에 「테스트 모드」가 보입니다.</sub>
+
 ### 새로 추가: USB에서 설치
 
 SD 카드가 작으면 패치 파일(약 460MB)을 USB 메모리나 USB 하드에 담아 설치할 수 있습니다.
@@ -82,6 +90,14 @@ Cemu에서도 Wii U 설치 앱처럼 「일본판 로고」를 고를 수 있습
 - 대난투 로고(타이틀, 스테이지 선택, 피규어 메뉴·숍, 아미보 그림, 토너먼트 오프닝, 오프닝 영상)만 일본판이 되고 나머지 한글은 그대로입니다. Opening movie 팩은 켜 두어도 됩니다(오프닝은 원래 영상, 조작 설명 영상은 한글).
 - 게임에서 읽은 부분과 만든 파일을 모두 확인값(SHA-256)으로 검사하고, 하나라도 다르면 아무것도 넣지 않습니다. Cemu에는 다 만든 팩만 넣고, 도구가 만들지 않은 같은 이름의 폴더는 건드리지 않습니다. 게임 파일은 읽기만 합니다.
 - 도구에는 일본판 로고 그림이 들어 있지 않습니다. 만든 팩은 다른 사람에게 주지 마세요.
+
+| 게임과 Cemu 찾기 | 한글 패치 팩 함께 넣기 |
+|:---:|:---:|
+| ![도우미: 게임과 Cemu 찾기](screenshots/tools/cemu_tool_1_found.jpg) | ![도우미: 한글 패치 팩 넣기](screenshots/tools/cemu_tool_2_korean_packs.jpg) |
+| ![도우미: 일본판 로고 팩 넣기 끝](screenshots/tools/cemu_tool_3_done.jpg) | |
+| ![일본판 로고 팩을 켠 타이틀](screenshots/tools/cemu_logo_jp_title.jpg) | ![일본판 로고 팩을 켠 스테이지 선택](screenshots/tools/cemu_logo_jp_stage_select.jpg) |
+
+<sub>위: 도우미 실행 화면(시험용 폴더). 아래: Core + DLC와 Japanese logo 팩을 켠 Cemu. 로고만 일본판이고 「버튼을 누르세요」, 「전장」 등은 한글 그대로입니다.</sub>
 
 ## 확인 범위
 
