@@ -2,7 +2,7 @@
 
 일본판 『大乱闘スマッシュブラザーズ for Wii U』(AXFJ01, 타이틀 ID `0005000010110E00`, 업데이트 v304)를 위한 비공식 팬 한글 패치입니다.
 
-**최신: 빌드 23** · [릴리스 다운로드](https://github.com/auseong325-design/ssb-for-wiiu-korean-patch/releases/latest)
+**최신: 빌드 23** · [릴리스 다운로드](https://github.com/auseong325-design/ssb-for-wiiu-korean-patch/releases/latest) · [패치 로그(이전 판과 달라진 점)](패치%20로그.md)
 
 | | |
 |:---:|:---:|
